@@ -2,6 +2,10 @@
 
 This is a tool to search for GBAROM save types.
 
+## DEMO
+
+https://hayate212.github.io/gba-savetype-search/
+
 ## How to start
 
 ```bash
