@@ -7,7 +7,7 @@ export const SoftwareList: React.FC<{ softwareList: GBASoftware[] }> =
     const { list, saveTypeList, search } = useSoftwareManager(softwareList);
 
     return (
-      <div className="container mx-auto">
+      <div className="container mx-auto relative">
         <SoftwareFilter saveTypeList={saveTypeList} search={search} />
         <ul className="flex flex-col">
           {list.map((software, i) => (

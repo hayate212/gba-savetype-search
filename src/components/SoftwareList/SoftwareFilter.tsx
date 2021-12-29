@@ -41,7 +41,7 @@ export const SoftwareFilter: React.FC<{
   }, [selectedSaveType]);
 
   return (
-    <div className="py-4 px-2 flex flex-row items-center">
+    <div className="py-4 px-2 flex flex-row items-center sticky top-0 bg-gray-800">
       <div>
         <span className="text-white">SaveType:</span>
         <select
